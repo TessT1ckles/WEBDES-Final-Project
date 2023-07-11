@@ -1,0 +1,46 @@
+/* MAIN */
+
+.main-contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5%;
+}
+
+.main-img {
+    padding: 5%;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 800px) {
+    .main-img img{
+        height: 50%;
+        width: 70%
+    }
+    .main-text {
+        font-size: 10px;
+    }
+
+    .main-socmed {
+        height: 40%;
+        width: 40%
+    }
+}
+
+@media (max-width: 480px) {
+
+    .main-img {
+        height: 30%;
+        width: 100%;
+    }
+
+    .main-socmed a{
+        display: grid;
+        grid-template-columns: auto 65px;
+    }
+
+}

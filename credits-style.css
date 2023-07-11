@@ -1,0 +1,22 @@
+/* MAIN */
+
+main {
+    height: 100%;
+}
+
+.main-cred {
+    position: relative;
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 4%;
+    margin: 20%;
+    font-size: 100%;
+    justify-content: center;
+    background-color: #203a43cb;
+    border-radius: 10px;
+}
+
+.main-text{
+    text-align: center;
+}
